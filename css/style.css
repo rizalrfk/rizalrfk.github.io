@@ -520,21 +520,21 @@ ul{
         margin-left: 28px;
     }
     .box1 img{
+        margin-right: 28px;
         max-height: calc(682px * 0.340);
         max-width: calc(937px * 0.340);
-        margin-right: 24px;
     }
     .box1 .component1{
-        display: none;
+        display: block;
     }
     .box2 img{
         margin-top: 40px;
-        margin-left: 28px;
+        margin-right: 28px;
         max-height: calc(682px * 0.340);
         max-width: calc(937px * 0.340);
     }
     .box2 .component2{
-        display: none;
+        display: block;
     }
 }
 
