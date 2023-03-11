@@ -1,0 +1,234 @@
+<?php
+//WebPersonal
+?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jarallax.css">
+
+    <title>Website Portfolio - Rizal Rafli</title>
+    <link rel="shortcut icon" href="assets/favicon/brand.png"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><h4>RizalRFK_</h3></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <div class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./CV-Rizal Rafli.pdf" download>Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Page Section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <div class="home_photo text-center">
+              <div class="circle"></div>
+              <div class="circle2"></div>
+              <img src="assets/images/photo.png" alt="photo">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="home_intro">
+              <h2>Hi, i'm Rizal Rafli Fajar Kurniawan</h2>
+              <h1>UI/UX Designer & Web Developer Since 2021</h1>
+              <p>
+                Currently, i'am living in Semarang City, Indonesia.
+                Fresh graduate from S1 - Information System at Semarang University.
+                I once worked as a UI/UX Designer at Pickolabs Studio in Indonesia. 
+                I also have experience working with local and foreign clients.
+              </p>
+              <!-- <p>I'm from Semarang City and I have been focus learning UI/UX Design & Web Programming since 2021 when I'm studying in College. If you want ask something about me, just contact me on my social media bellow.</p> -->
+              <div class="home_social">
+                <a href="https://www.instagram.com/rizalrfk_/"><img src="assets/icon/instagram.svg" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/rizal-rfk/"><img src="assets/icon/linkedin.svg" alt="linkedin"></a>
+                <a href="https://dribbble.com/rizalrfk_"><img src="assets/icon/dribbble.svg" alt="dribbble"></a>
+                <a href="https://www.behance.net/rizalrfk_"><img src="assets/icon/behance.svg" alt="behance"></a>
+                <a href="https://github.com/rizalrfk"><img src="assets/icon/github.svg" alt="github"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Home Page Section -->
+
+    <!-- WEB Project Section -->
+    <section class="project" id="project">
+      <div class="container">
+        <div class="row">
+          <h1>Best Projects Systems</h1>
+          <div class="line"></div>
+
+          <div class="box1">
+            <img src="assets/images/web1.png" alt="box1">
+            <img class="component1" data-jarallax-element="100 250" src="assets/components/web_programming.svg" alt="web programming">
+          </div>
+
+          <div class="box2">
+            <img src="assets/images/uikit1.jpg" alt="box2">
+            <img class="component2" data-jarallax-element="-100 -250" src="assets/components/mobile_app_design.svg" alt="mobile app design">
+          </div>
+                    
+        </div>
+      </div>
+    </section>
+    <!-- End WEB Project Section -->
+
+    <!-- UIX Project Section -->
+    <section class="uixproject" id="uixproject">
+      <div class="container">
+        <div class="row">
+          <h1>My Projects UI/UX</h1>
+          <div class="line"></div>
+
+          <div class="kotak">
+            <div class="top-left">
+              <img src="assets/images/ui2.jpg" alt="images">
+              <p>Exercise Landing Page</p>
+            </div>
+            <div class="top-center">
+              <img src="assets/images/ui6.jpg" alt="images">
+              <p>Task Management Mobile App</p>
+            </div>
+            <div class="top-right">
+              <img src="assets/images/ui1.jpg" alt="images">
+              <p>Creative Digital Agency Landing Page.</p>
+            </div>
+            <div class="mid-left">
+              <img src="assets/images/ui8.jpg" alt="images">
+              <p>Job Finder Mobile App</p>
+            </div>
+            <div class="mid-center">
+              <img src="assets/images/ui4.jpg" alt="images">
+              <p>Project Management Dashboard</p>
+            </div>
+            <div class="mid-right">
+              <img src="assets/images/ui7.jpg" alt="images">
+              <p>UI KIT Marketplace</p>
+            </div>
+            <div class="bottom-left">
+              <img src="assets/images/ui0.jpg" alt="images">
+              <p>Sales Management Landing Page</p>
+            </div>
+            <div class="bottom-center">
+              <img src="assets/images/ui3.jpg" alt="images">
+              <p>Sales Management Dashboard</p>
+            </div>
+            <div class="bottom-right">
+              <img src="assets/images/ui5.jpg" alt="images">
+              <p>Sales Management Mobile App</p>
+            </div>
+          </div>
+          
+          <div class="parent-btn">
+            <a href="https://dribbble.com/rizalrfk_" class="btn" type="submit">Show More</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End UIX Project Section -->
+    
+    <!-- Tools and Skills section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row">
+          <h1>My Skills & Tools</h1>
+          <div class="line"></div>
+          <div class="programming text-center">
+            <img src="assets/icon/html.svg" alt="html">
+            <img src="assets/icon/css.svg" alt="css">
+            <img src="assets/icon/javascript.svg" alt="javascript">
+            <img src="assets/icon/python.svg" alt="python">
+            <img src="assets/icon/php.svg" alt="php">
+            <img src="assets/icon/bootstrap.svg" alt="bootstrap">
+            <img class="mysql" src="assets/icon/mysql.svg" alt="mysql">
+          </div>
+          <div class="design text-center">
+            <img src="assets/icon/photoshop.svg" alt="photoshop">
+            <img src="assets/icon/illustrator.svg" alt="illustrator">
+            <img class="figma" src="assets/icon/figma.svg" alt="figma">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Tools and Skills section -->
+
+    <!-- Get In Touch Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <h1>Contact Me</h1>
+          <div class="line"></div>
+          <p class="desc">For hiring, Disccuss, or collaboration. <br> Please contact me via email in <span><a href="https://www.hey.rizalrfk@gmail.com"><u>hey.rizalrfk@gmail.com</u></a></span></p>
+          <div class="contact_social">
+            <a href="https://www.instagram.com/rizalrfk_/"><img src="assets/icon/instagram.svg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/in/rizal-rfk/"><img src="assets/icon/linkedin.svg" alt="linkedin"></a>
+            <a href="https://dribbble.com/rizalrfk_"><img src="assets/icon/dribbble.svg" alt="dribbble"></a>
+            <a href="https://www.behance.net/rizalrfk_"><img src="assets/icon/behance.svg" alt="behance"></a>
+            <a href="https://github.com/rizalrfk"><img src="assets/icon/github.svg" alt="github"></a>
+          </div>
+          <div class="copyright">
+            <p>Copyright RizalRFK © 2023. All Rights Reserved.</p>
+          </div>
+        </div>
+         </div>
+      </div>
+    </section>
+    <!-- End Get In Touch Section -->
+
+    <!-- Scripts -->
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jarallax.js"></script>
+    <script src="js/jarallax-element.js"></script>
+    <!-- End Scripts -->
+
+  </body>
+</html>
